@@ -83,3 +83,9 @@ h2{
 .boxOpen::after, .boxMatch::after{
     transform: rotateY(180deg);
 }
+
+#contagemPares{
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+}
