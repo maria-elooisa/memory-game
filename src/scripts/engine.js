@@ -46,16 +46,13 @@ function checkMatch(){
         openCards[0].classList.add("boxMatch");
         openCards[1].classList.add("boxMatch");
         contagem++
-       // Seleciona o elemento HTML pelo id
+
         let elemento = document.getElementById("contagemPares");
-        // Obtém o texto atual
+
         let textoAtual = elemento.textContent;
 
-        // Verifica se o texto não está vazio para evitar erros
         if (textoAtual.length > 0) {
-            // Substitui o último caractere (mantém o texto até o penúltimo e adiciona o novo caractere)
-            let novoTexto = textoAtual.slice(0, -1) + contagem; // Substitui o último caractere por "6"
-            // Atualiza o conteúdo do elemento
+            let novoTexto = textoAtual.slice(0, -1) + contagem;
             elemento.textContent = novoTexto;
     }       
     } else{
