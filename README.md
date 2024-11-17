@@ -46,4 +46,4 @@ O **Jogo da Memória** apresenta uma interface moderna e intuitiva, com cartas q
 2. Navegue até o diretório do projeto:
    ```bash
    cd jogo-da-memoria
-3. Navegue até o diretório do projeto:
+3. Abra o arquivo index.html em qualquer navegador.
